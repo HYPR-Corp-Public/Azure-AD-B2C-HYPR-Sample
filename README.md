@@ -31,6 +31,13 @@ With True Passwordless Security, businesses can finally eliminate password reuse
 
 4. You have registered a users mobile using the HYPR REST APIs or the HYPR Device Manager in your HYPR tenant. For example, you can use the HYPR Java SDK to accomplish this task: https://docs.hypr.com/integratinghypr/docs/hypr-java-web-sdk
 
-## Import the 
+## Import the Policy Files Into Your Azure AD B2C Tenant
+
+Import the policy files in this repository into your Azure AD Tenant. 
+
+1. Make sure to change all the placeholder values that say "YOUR_TENANT" in the policy files with your tenant ID. 
+2. Makre sure to change to specify your HYPR tenant URL placeholder "YOUR_HYPR_TENANT_URL" on line 89 of the B2C_1A_TrustFrameworkExtensionsHypr policy file. 
+
+
 
 
