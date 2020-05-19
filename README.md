@@ -40,5 +40,28 @@ Import the policy files in this repository into your Azure AD Tenant.
 
 ![Import Policy Image](/images/uploadpolicy.png)
 
+## Test Your Authentication Flow
 
+1. Select your policy and run it. 
 
+![Auth Step 1](/images/authstep1.png)
+
+2. Put in the username of the user you'd like to authenticate with HYPR. 
+
+![Auth Step 2](/images/authstep2.png)
+
+3. Accept the PUSH notification on your HYPR mobile app
+
+![Auth Step 3](/images/authstep3.png)
+
+4. Complete the True Passwordless FIDO authentication on your mobile app. 
+
+![Auth Step 4](/images/authstep4.png)
+
+5. Validate your authentication succeeded
+
+![Auth Step 5](/images/authstep5.png)
+
+6. Validate you have received a valid token from Azure AD B2C
+
+![Auth Step 6](/images/authstep6.png)
